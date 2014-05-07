@@ -1,0 +1,15 @@
+[user]
+	email = cobrien@rallydev.com
+	nane = Colin O'Brien
+[credential]
+	helper = osxkeychain
+[core]
+	excludesfile = /Users/cobrien/.global_ignore
+	editor = vim
+[alias]
+	ac = !git add -A && git commit
+	st = status -sb
+	lg = log --all --graph --decorate --oneline --abbrev-commit
+	po = push origin
+	acp = !git add -A && git commit $1 && git push origin $2
+	acpm = !git add -A && git commit $1 && git push origin master
