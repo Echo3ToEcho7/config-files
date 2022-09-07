@@ -7,7 +7,7 @@ BRANCH=$1
 DEFAULT_BRANCH="test-c3"
 
 if [ -z $BRANCH ]; then
-  echo -n "What branch do you want to update? [$DEFAULT_BRANCH]: "
+  echo -n "What branch do you want to update from? [$DEFAULT_BRANCH]: "
   read BRANCH_C
 
   BRANCH=${BRANCH_C:-$DEFAULT_BRANCH}
