@@ -23,7 +23,7 @@ git clone -b $BRANCH --depth 1 --single-branch --recurse-submodules --shallow-su
 cd openpilot
 
 echo "Done..."
-echo -n "Reboot now? [y/(n)]: "
+echo -n "Reboot now? (y/[n]): "
 read RB
 
 if [ -n $RB ]; then
